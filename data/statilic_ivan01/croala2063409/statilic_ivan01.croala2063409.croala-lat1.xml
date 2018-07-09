@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="statilic-i-epist-1527-11-08">
+        <titleStmt>
+            <title ref="statilic-epistula-1527-11-08">Joannes Statilius, praepositus Budensis, Joanni de Tarnow, comiti, palatino Russiae, exercituum regni Poloniae capitaneo generali, versio electronica</title>
+            <author ref="statilic_ivan01">
+                <persName xml:lang="hr">Statilić, Ivan</persName>
+            </author>
+            <editor>
+               <persName>
+                   <ref type="viaf" target="101820179">Zygmunt Celichowski</ref>
+               </persName>
+            </editor>
+            <respStmt>
+                <resp>Hanc editionem electronicam curavit</resp>
+                <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <p>Digitalizat kasnijeg izdanja (1876).</p>
+        </editionStmt>
+        <extent ana="B">Mg:B Verborum 331</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Croatica et Tyrolensia, znanstveni
+            projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+            Hrvatska.  <date>Ožujka 2014</date>.</p>
+         </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Acta Tomiciana IX, 328-329 (nr. 323)</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      
+    
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+             <place ana="origin">
+               <placeName>Homona</placeName>
+            </place>
+             <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+             <person ana="sender">
+               <persName ref="statilic_ivan01">Statilić, Ivan</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="2901537">Tarnowski, Jan</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1527-11-08" period="15xx_1_third">1527-11-08</date>
+            <placeName>Homona</placeName>
+        </creation>
+         <textClass>
+            <keywords scheme="typus">
+                <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+                <term>Litterae renatae (1400-1600)</term>
+                <term>Saeculum 16 (1501-1600)</term>
+                <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+                <term>prosa oratio - epistula</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2014-03-16</date>
+        Prva verzija.
+    </change>
+
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:statilic_ivan01.croala2063409.croala-lat1:" xml:lang="lat">
+        <body xml:lang="lat">
+            <pb/>
+            <div type="prosa-epistula">
+                <opener n="opener">
+               <add n="add">323.</add> Joannes Statilius, praepositus Budensis,
+                    Joanni de Tarnow, comiti, palatino Russiae, exercituum regni Poloniae
+                    capitaneo generali.</opener>
+                <p n="p"> Post mei servitiorumque meorum commendationem salutem et felicitatem. <abbr n="abbr1">Mgce. dne.</abbr> et patrone observandissime. Licet superioribus diebus et regia <abbr n="abbr2">Mtas.</abbr>, <abbr n="abbr3">dnus.</abbr> meus gratiosissimus, et ego de mandato suae <abbr n="abbr4">Mtis.</abbr> satis abunde scripserit et significaverit mentem suam,
+                    nihilominus, quia cura haec in parte est commissa mihi et alioquin res ipsa indiget magna celeritate, volui denuo ad <abbr n="abbr5">mgcam. Dtionem. vram.</abbr> scribere. Nam regia <abbr n="abbr6">Mtas.</abbr> jam ex Transsilvania movit cum certa spe rehabendi Budam, sed indiget externo milite, qui
+                    nisi cito veniat, afferet magnam tarditatem rebus suae <abbr n="abbr7">Mtis</abbr>. Quare <abbr n="abbr8">Dtioni. vrae. mgcae.</abbr>
+                    ita agendum est, ut, si res <abbr n="abbr9">dni.</abbr> mei salvas esse vult, tunc urgeat illas copias, ut accelerent, quarum numerus debet esse, ut aliis literis meis scripsi, duo milia equites Poloni
+                    boni, quingenti pedites. Item per <abbr n="abbr10">dnum.</abbr> Lanczkoronski ducendi quingenti sagittarii Lithwani
+                    sicut sibi scripsit <abbr n="abbr11">dnus.</abbr> Jaroslaus Laski, et mille vel duo milia Tartari ducendi per
+                    <abbr n="abbr12">dnum.</abbr> Eustachium, qui de hoc scripserat regiae <abbr n="abbr13">Mti</abbr>. In his est insistendum <abbr n="abbr14">mgcae.
+                    Dtioni. vrae.</abbr>; nam regia <abbr n="abbr15">Mtas.</abbr> misit me huc, ut gentes ipsas exspectem vel veniant ad
+                    Munkacz vel ad Homona. nam datum est negotium hoc exsequendum <abbr n="abbr16">mgco. dno.</abbr> Francisco de Homona, si etiam per illam viam venerint. Ad quemcunque autem locum ex his
+                    gentes ipsae venerint, reperient ea, quae erunt necessaria, sicuti per <abbr n="abbr17">mgcam. Dtionem.
+                    vram.</abbr> fuerit cum eis concordatum; dummodo <abbr n="abbr18">mgca. Dtio. vra.</abbr> faciat eas gentes accelerare, nam mora multum obest. Regia <abbr n="abbr19">Mtas.</abbr>, <abbr n="abbr20">dnus.</abbr> meus clementissimus, sua gratia et
+                    liberalitate id rependet <abbr n="abbr21">mgcae. Dtioni. vrae</abbr>. Quad si gentes aliter non poterint venire,
+                    nisi ut <abbr n="abbr22">mgca. Dtio. vra.</abbr> aliquid in eas impendat, velit <abbr n="abbr23">mgca. Dtio. vra.</abbr> id exponere et
+                    mittat ad me suum nuntium, nam de omnibus faciam satis, dummodo, ut dixi, <abbr n="abbr24">mgca. Dtio.
+                    vra.</abbr> faciat gentes accelerare et non permittat regiam <abbr n="abbr25">Mtem.</abbr> incassum his terere tempus.
+                     
+                    
+                    </p>
+                <closer n="closer">
+                    <salute n="salute">
+                  <abbr n="abbr">Mgcam. Dtionem. vram.</abbr> diu feliciter valere opto.</salute>
+                    <dateline n="dateline">Ex Homona <date n="date" when="1527-11-08">in octava Sanctorum omnium 1527.<note n="note">((8. 11. 1527.))</note>
+                  </date>
+               </dateline>
+                    <signed n="signed">
+                  <abbr n="abbr">Mgcae. Dtionis. vrae.</abbr> servitor
+                        Joannes Statilius.</signed>
+                </closer>
+            </div>
+        </body>    
+   </text>
+</TEI>

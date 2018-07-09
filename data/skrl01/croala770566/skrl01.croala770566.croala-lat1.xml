@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="skerle-n-epist-verh-1794-09">
+         <titleStmt>
+            <title>Ad Maximilianum Verhovacz epistola 9. Septembris 1794, versio electronica</title>
+            <author ref="skrl01">
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
+               <date>1729-1799</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Josip Kolanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+     
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digitalizat modernoga znanstvenog izdanja (2000).
+    </edition>
+         </editionStmt>
+         <extent ana="A">Mg:A Verborum 77</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+     projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+     Hrvatska.  <date>lipnja 2009</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            
+               <bibl>Škrlec, Nikola, Stjenko Vranjican, i Eugen Pusić. Nikola Škrlec Lomnički: (1729-1799). Sv. 2.
+      Zagreb: Pravni fakultet et al, 2000.</bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person ana="sender">
+               <persName ref="skrl01">Škrlec Lomnički, Nikola</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="vrhov01">Vrhovac, Maksimilijan</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1794-09-09" period="17xx_3_third">09.09.1794</date>
+            <placeName>Jakovlje</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-07-10</date>
+    Novo, unificirano zaglavlje.
+   </change>
+         <change>
+            <date>2011-01-10</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+    Svako pismo pojedinačno.
+   </change>
+   
+         <change>
+            <date>2004-03-14T02:00:11</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> revision </change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text xml:base="urn:cts:croala:skrl01.croala770566.croala-lat1:" xml:lang="lat" type="epistula">
+      <front xml:lang="lat" n="front">
+         <head n="head">3. Jakovlye, 9. Septembris 1794. </head>
+      </front>
+      <body xml:lang="lat" n="body">
+         <div n="div" type="prosa-epistula">
+            <opener n="opener">
+    
+               <salute n="salute">Excellentissime et Illustrissime Domine Episcope mihi singulariter colendissime.</salute>
+            </opener>
+            <p n="p"> Banalis armorum praefectura expressam in adnexo<note n="note" place="foot">
+                  <p n="p">2,1 in adnexo] <emph n="emph">Adnexum deest.</emph>
+                  </p>
+               </note> ad commissionem incorporatoriam eius insinuato quaerimoniam proponit.
+     Ut illa in proxima commissionis sessione meritorie assumi possit, insinuatum
+    hoc Excellentiae 
+    <pb/>
+    Vestrae ea cum officiosa requisitione in originali communicandum duxi ut eadem responsum
+    suum penes remissionem originalis proximius submittere haud gravetur.</p>
+            <closer n="closer">
+               <salute n="salute"> In reliquo iugi cum veneratione persisto </salute>
+               <signed n="signed">Excellentiae Vestrae humillimus servus Nicolaus Skerlecz, manu propria</signed>
+               <dateline n="dateline">Jakovlye, 9. Septembris 1794.</dateline>
+    
+            </closer>
+         </div>
+   
+      </body>
+      <back xml:lang="lat" n="back">
+         <div n="div1">
+            <p n="p">
+               <add n="add">
+                  <note n="note">
+                     <add n="add">A tergo:</add>
+                  </note> Perceptum 12. Septembris 1794. Nr. 137.
+    Reincorporatoriorum fasc. XXXXVII B.</add>
+            </p>
+         </div>
+         <div n="div2" type="notes">
+            <p n="p">
+               <bibl n="bibl">(NAZ, EAE, vol. 113, nr. 125.)</bibl>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
